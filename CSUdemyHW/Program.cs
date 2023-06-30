@@ -1,10 +1,14 @@
 ﻿namespace CSUdemyHW
 {
-    internal class Program
+
+    internal class Program // PROGRAM CLASS
     {
-        static void Main(string[] args)
+        static void Main(string[] args) // MAIN METHOD (ENTRY POINT OF APP)
         {
-            Console.WriteLine("Hello, World!");
+            Person parker = new Person();
+            parker.FirstName = "Parker";
+            parker.LastName = "Schell";
+            parker.SayHi();
         }
     }
 }
