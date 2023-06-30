@@ -1,4 +1,6 @@
-﻿namespace CSUdemyHW
+﻿using CSUdemyHW.Math;
+
+namespace CSUdemyHW
 {
 
     internal class Program // PROGRAM CLASS
@@ -9,6 +11,9 @@
             parker.FirstName = "Parker";
             parker.LastName = "Schell";
             parker.SayHi();
+
+            int result = Calculator.Add(1, 2);
+            Console.WriteLine(result);
         }
     }
 }
